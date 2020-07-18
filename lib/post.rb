@@ -6,6 +6,9 @@ class Post
     @@all << self 
   end
 
+  def self.all
+  
+  end 
   def author_name
     if author 
       self.author.name 
